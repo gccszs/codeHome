@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <!--    tools:context=".Tab"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <!--    android:layout_marginTop="20dp"-->
+
+        <EditText
+            android:id="@+id/inputnumberunit"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:inputType="numberDecimal"
+            android:hint="请输入"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="20dp">
+
+        <Spinner
+            android:id="@+id/spinnerNow"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:entries="@array/power01"
+            />
+<!--        android:background="#CDDC39"-->
+        <ImageView
+            android:id="@+id/change"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/change"/>
+        <!--            android:layout_centerHorizontal="true"-->
+        <Spinner
+            android:id="@+id/spinnerTarget"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:entries="@array/power01"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/showMeResult"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:text="welcome"
+        android:textColor="#00D4AA"
+        android:textSize="40sp"
+        android:background="#3BFFD8"/>
+
+</LinearLayout>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="merit01">
+    <item>焦耳</item>
+    <item>卡路里</item>
+    <item>千焦</item>
+    <item>千瓦·时</item>
+    <item>度</item>
+    <item>标准操场慢跑一圈</item>
+    <item>千卡</item>
+    <item>脂肪·克</item>
+    <item>瘦一斤</item>
+</string-array></resources>

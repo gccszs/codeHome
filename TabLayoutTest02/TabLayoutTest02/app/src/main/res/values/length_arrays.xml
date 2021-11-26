@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="length01">
+        <item>寸</item>
+        <item>尺</item>
+        <item>厘米</item>
+        <item>分米</item>
+        <item>米</item>
+        <item>千米</item>
+    </string-array>
+</resources>
